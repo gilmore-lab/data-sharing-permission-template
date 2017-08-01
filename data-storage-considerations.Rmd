@@ -1,0 +1,41 @@
+---
+title: "data-storage-considerations"
+author: "Rick Gilmore"
+date: "8/1/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## "Classifying data"
+
+- [Penn State Data Categorization initiative](http://security.psu.edu/info-classification-decision-tool/)
+- [Penn State AD-95](https://guru.psu.edu/policies/AD95.html)
+
+## Where to store data "locally"
+
+- Local computers
+    - Encrypted hard drives or not
+- University servers
+    - Who manages access
+    - Encryption or not (clinical/HIPAA-protected data or not)
+
+## How to share data with colleagues on your protocol
+
+- Not email
+    - Emails are copied on each server they pass through
+    - Password-protected files (e.g. Excel, Word)
+- Flash/hard drives
+- "Cloud" storage
+    - Box, Dropbox, Amazon, Google
+        - HIPAA compliance?
+        - Is HIPAA compliance too strict?
+    - Depends on institutional policies
+- Institutional servers
+    - Who grants access, etc.
+    - Data "enclaves"
+    - USB dongles with changing passwords
+- Repositories
+    - "Private"" projects on OSF, Databrary, Dataverse

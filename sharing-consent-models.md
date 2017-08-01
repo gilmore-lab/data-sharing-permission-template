@@ -1,6 +1,6 @@
 sharing-consent-models
 ================
-2017-07-31 17:16:48
+2017-08-01 15:10:15
 
 -   [Aims](#aims)
 -   [Ways to secure permission to share](#ways-to-secure-permission-to-share)

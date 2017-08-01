@@ -1,0 +1,79 @@
+---
+title: "sample-sharing-permission-language"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Sharing what data
+
+### Survey data
+
+- Information about potentially stigmatizing characteristics (situation-dependent)
+    - Religious/philosophical convictions
+    - Sexual identity and preferences
+    - Political affiliation, trade union membership
+    - Ethnicity, nationality, citizenship status
+- Self-reported health information
+
+### Medical/health records
+
+- HIPAA
+
+### Educational records
+
+- FERPA
+
+### Criminal records
+
+### Diaries or interviews
+
+- Remove names, other directly identifiable information
+
+
+### Social media accounts
+
+- Twitter, Facebook, Google+, etc.
+    - In public domain or not?
+    - If in public domain, level of embarrassment or harm
+    
+### Video or audio recordings
+
+- "Scrubbing" recordings for episodes of risk (e.g., HomeBank)
+    - Say credit card numbers out loud
+
+### Brain imaging data
+
+- Defacing
+- Header data "cleaning"\
+    - Scrub names
+    - Date/time of acquisition (embedded) means must be cautious about exact age or birthdates. May need to redact or change date/time of acquisition to prohibit re-identification.
+
+### Geographic data
+
+- Not home address (without permission)
+- Not Census Block, [Census Block Group](https://www.census.gov/geo/reference/gtc/gtc_bg.html) or Census Tract (without permission).
+- HIPAA prohibits sharing ZIP codes if population < 20,000. How does a PI know this?
+
+## Sharing with whom
+
+- Public
+    - Scrub PII, other data
+- Restricted
+    - Open/Databrary model, community of researchers without prior restriction
+    - Case-by-case basis, by application, e.g. ICPSR
+
+## Sharing where
+
+### U.S. vs. the World
+
+- [EU Safe Harbour](https://en.wikipedia.org/wiki/International_Safe_Harbor_Privacy_Principles)
+- [EU-US Data Privacy Shield](https://en.wikipedia.org/wiki/EU-US_Privacy_Shield)
+
+## Sharing for how long
+
+## 
