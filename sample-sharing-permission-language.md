@@ -1,20 +1,27 @@
----
-title: "sample-sharing-permission-language"
-author: "Rick Gilmore"
-date: "`r Sys.time()`"
-output: 
-  github_document:
-    toc: true
-    toc_depth: 3
----
+sample-sharing-permission-language
+================
+Rick Gilmore
+2017-08-03 12:05:22
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+-   [Why share data and with whom](#why-share-data-and-with-whom)
+    -   [Sharing with the public](#sharing-with-the-public)
+    -   [Sharing with researchers](#sharing-with-researchers)
+    -   [Discussion](#discussion)
+-   [Sharing what data](#sharing-what-data)
+    -   [Personal identifiers](#personal-identifiers)
+    -   [Self-reported personal characteristics or health](#self-reported-personal-characteristics-or-health)
+    -   [Video or audio recordings](#video-or-audio-recordings)
+    -   [Brain imaging data](#brain-imaging-data)
+    -   [Diaries or interviews](#diaries-or-interviews)
+    -   [Geographic data](#geographic-data)
+    -   [Sensitive data elements](#sensitive-data-elements)
+-   [Sharing for how long](#sharing-for-how-long)
+-   [Uses of shared data](#uses-of-shared-data)
 
-## Why share data and with whom
+Why share data and with whom
+----------------------------
 
-> In keeping with best practices of open and transparent scientific research and to ensure that your participation has the maximum benefit to the public, we ask your permission to share some of the information you have provided with... 
+> In keeping with best practices of open and transparent scientific research and to ensure that your participation has the maximum benefit to the public, we ask your permission to share some of the information you have provided with...
 
 ### Sharing with the public
 
@@ -22,7 +29,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Sharing with researchers
 
-> other researchers who must apply for access and who promise to protect your information and your identity as carefully as the researchers involved in this study. Your information will be stored on a web site in a controlled database that restricts who can access your information. 
+> other researchers who must apply for access and who promise to protect your information and your identity as carefully as the researchers involved in this study. Your information will be stored on a web site in a controlled database that restricts who can access your information.
 
 > The research team in charge of this study will decide which researchers can access your information. A committee of experts will carefully review every data request from other scientists before allowing them to use your information. These other investigators may be at <your institution> or at other research centers (academic or commercial) around the world.
 
@@ -34,10 +41,11 @@ OR
 
 ### Discussion
 
-- [EU Safe Harbour](https://en.wikipedia.org/wiki/International_Safe_Harbor_Privacy_Principles)
-- [EU-US Data Privacy Shield](https://en.wikipedia.org/wiki/EU-US_Privacy_Shield)
+-   [EU Safe Harbour](https://en.wikipedia.org/wiki/International_Safe_Harbor_Privacy_Principles)
+-   [EU-US Data Privacy Shield](https://en.wikipedia.org/wiki/EU-US_Privacy_Shield)
 
-## Sharing what data
+Sharing what data
+-----------------
 
 ### Personal identifiers
 
@@ -61,10 +69,10 @@ OR
 
 #### Discussion
 
-- Defacing
-- Header data "cleaning"\
+-   Defacing
+-   Header data "cleaning"
     - Scrub names
-    - Date/time of acquisition (embedded) means must be cautious about exact age or birthdates. May need to redact or change date/time of acquisition to prohibit re-identification.
+    -   Date/time of acquisition (embedded) means must be cautious about exact age or birthdates. May need to redact or change date/time of acquisition to prohibit re-identification.
 
 ### Diaries or interviews
 
@@ -80,13 +88,13 @@ OR
 
 OR (if applicable)
 
-> We will share the GPS positions but will add noise to them. This will "blur" the information so that your exact movements cannot be easily determined by others. 
+> We will share the GPS positions but will add noise to them. This will "blur" the information so that your exact movements cannot be easily determined by others.
 
 #### Discussion
 
-- Not home address (without permission)
-- Not Census Block, [Census Block Group](https://www.census.gov/geo/reference/gtc/gtc_bg.html) or Census Tract (without permission).
-- HIPAA prohibits sharing ZIP codes if population < 20,000. How does a PI know this?
+-   Not home address (without permission)
+-   Not Census Block, [Census Block Group](https://www.census.gov/geo/reference/gtc/gtc_bg.html) or Census Tract (without permission).
+-   HIPAA prohibits sharing ZIP codes if population &lt; 20,000. How does a PI know this?
 
 ### Sensitive data elements
 
@@ -98,37 +106,32 @@ OR
 
 #### Discussion
 
-- Information about potentially stigmatizing characteristics (situation-dependent)
-    - Religious/philosophical convictions
-    - Sexual identity and preferences
-    - Political affiliation, trade union membership
-    - Ethnicity, nationality, citizenship status
+-   Information about potentially stigmatizing characteristics (situation-dependent)
+    -   Religious/philosophical convictions
+    -   Sexual identity and preferences
+    -   Political affiliation, trade union membership
+    -   Ethnicity, nationality, citizenship status
 
 <!-- ### Medical/health records -->
-
 <!-- - HIPAA -->
-
 <!-- ### Educational records -->
-
 <!-- - FERPA -->
-
 <!-- ### Criminal records -->
-
 <!-- ### Social media accounts -->
-
 <!-- - Twitter, Facebook, Google+, etc. -->
 <!--     - In public domain or not? -->
 <!--     - If in public domain, level of embarrassment or harm -->
-    
-## Sharing for how long
+Sharing for how long
+--------------------
 
 > Your information will be stored for an indefinite period unless you specifically contact {study contact} and revoke permission. However, data and research results already shared with other investigators or the general public cannot be destroyed, withdrawn or recalled.
 
-## Uses of shared data
+Uses of shared data
+-------------------
 
-> The shared data from this study might be used to research any topic and might be unrelated to the goals of this study. 
+> The shared data from this study might be used to research any topic and might be unrelated to the goals of this study.
 
-> Shared data will be used only for research purposes. 
+> Shared data will be used only for research purposes.
 
 > National or state laws may require us to show information to university or government officials (or sponsors), who are responsible for monitoring the safety of research.
 
