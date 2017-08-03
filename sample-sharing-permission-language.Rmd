@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Why share data and with whom
 
-> *In keeping with best practices of open and transparent scientific research and to ensure that your participation has the maximum benefit to the public, we ask your permission to share some of the information you have provided with...*
+> *In keeping with best practices of open and transparent scientific research and to ensure that your participation has the maximum benefit to the public, we ask your permission to share some of the data you have provided with...*
 
 ### Sharing with the public
 
@@ -22,13 +22,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Sharing with researchers
 
-> *...other researchers who must apply for access and who promise to protect your information and your identity as carefully as the researchers involved in this study. Your information will be stored on a web site in a controlled database that restricts who can access your information.*
+> *...other researchers who must apply for access and who must promise to protect your information and your identity as carefully as the researchers involved in this study. Your information will be stored {on a web site} in a controlled database that restricts who can access your information.*
 
 > *...The research team in charge of this study will decide which researchers can access your information. A committee of experts will carefully review every data request from other scientists before allowing them to use your information. These other investigators may be at <your institution> or at other research centers (academic or commercial) around the world.*
 
+> *...Researchers who are granted access must sign an agreement stating that they will strictly maintain your confidentiality, and that the researchers have obtained approval from and are monitored by an Institutional Review or Research Ethics Board.*
+
 OR
 
-> *...The web site where your information will be stored in a controlled database specializes limits access to researchers who have formal approval. These other investigators may be at {your institution} or at other research centers (academic or commercial) around the world.*
+> *...The web site where your information will be stored in a controlled database limits access to researchers who have formal approval from their institutions. These other investigators may be at {your institution} or at other research centers (academic or commercial) around the world.*
 
 > *...No researcher using shared information will contact you unless you have specifically agreed to be contacted again.*
 
@@ -135,6 +137,10 @@ OR
 > *...Shared data will be used only for research purposes.*
 
 > *...National or state laws may require us to show information to university or government officials (or sponsors), who are responsible for monitoring the safety of research.*
+
+> *...In addition, researchers are required to report child abuse to law enforcement. If researchers come across information giving reasonable cause to believe that child abuse has taken place, confidentiality cannot be maintained.
+
+ 
 
 > *...By agreeing to share data, you are making a free and generous gift that might help others. It is possible that some of the research conducted using your information eventually could lead to the development of new methods for studying {behavior, the brain, ...}, new diagnostic tests, new drugs, or other commercial products. Should this occur, there is no plan to provide you with any part of the profits generated from such products and you will not have any ownership rights in the products.*
 
