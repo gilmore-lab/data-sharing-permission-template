@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Why share data and with whom
 
-> *In keeping with best practices of open and transparent scientific research and to ensure that your participation has the maximum benefit to the public, we ask your permission to share some of the data you have provided with...*
+> *In keeping with best practices of open and transparent scientific research, {meet government and research funder requirements}, and to ensure that your participation has the maximum benefit to the public, we ask your permission to share some of the data you have provided with...*
 
 ### Sharing with the public
 
@@ -130,7 +130,7 @@ OR
 
 > "...Your information will be stored for an indefinite period unless you specifically contact {study contact} and revoke permission. However, data and research results already shared with other investigators or the general public cannot be destroyed, withdrawn or recalled.*
 
-## Uses of shared data
+## Sharing for what purposes
 
 > *...The shared data from this study might be used to research any topic and might be unrelated to the goals of this study.*
 
@@ -144,7 +144,7 @@ OR
 
 > *...By agreeing to share data, you are making a free and generous gift that might help others. It is possible that some of the research conducted using your information eventually could lead to the development of new methods for studying {behavior, the brain, ...}, new diagnostic tests, new drugs, or other commercial products. Should this occur, there is no plan to provide you with any part of the profits generated from such products and you will not have any ownership rights in the products.*
 
-## If data sharing permission sought separately from consent to participate in research
+## Permission to share is separate from consent to participate
 
 > *...Giving permission to share information is separate from consenting to participate in the research study. You do not have to give permission to share your information. Your choices will not affect receipt of payment if offered for participation in this or future studies.*
 
