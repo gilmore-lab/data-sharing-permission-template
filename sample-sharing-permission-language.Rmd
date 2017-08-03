@@ -9,71 +9,124 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Why share data and with whom
+
+> In keeping with best practices of open and transparent scientific research and to ensure that your participation has the maximum benefit to the public, we ask your permission to share some of the information you have provided with... 
+
+### Sharing with the public
+
+> the public on a web site that does not restrict access to information.
+
+### Sharing with researchers
+
+> other researchers who must apply for access and who promise to protect your information and your identity as carefully as the researchers involved in this study. Your information will be stored on a web site in a controlled database that restricts who can access your information. 
+
+> The research team in charge of this study will decide which researchers can access your information. A committee of experts will carefully review every data request from other scientists before allowing them to use your information. These other investigators may be at <your institution> or at other research centers (academic or commercial) around the world.
+
+OR
+
+> The web site where your information will be stored in a controlled database specializes limits access to researchers who have formal approval. These other investigators may be at {your institution} or at other research centers (academic or commercial) around the world.
+
+> No researcher using shared information will contact you unless you have specifically agreed to be contacted again.
+
+### Discussion
+
+- [EU Safe Harbour](https://en.wikipedia.org/wiki/International_Safe_Harbor_Privacy_Principles)
+- [EU-US Data Privacy Shield](https://en.wikipedia.org/wiki/EU-US_Privacy_Shield)
+
 ## Sharing what data
 
-### Survey data
+### Personal identifiers
 
-- Information about potentially stigmatizing characteristics (situation-dependent)
-    - Religious/philosophical convictions
-    - Sexual identity and preferences
-    - Political affiliation, trade union membership
-    - Ethnicity, nationality, citizenship status
-- Self-reported health information
+> Before sharing, we will remove information that may be used to identify you directly, such as your name, phone number, email address {other identifiers that were collected}.
 
-### Medical/health records
+> Your data will be identified by code number, not by name.
 
-- HIPAA
+### Self-reported personal characteristics or health
 
-### Educational records
+> We will share other information such as your age, {birthdate}, ethnicity, education, ...
 
-- FERPA
-
-### Criminal records
-
-### Diaries or interviews
-
-- Remove names, other directly identifiable information
-
-
-### Social media accounts
-
-- Twitter, Facebook, Google+, etc.
-    - In public domain or not?
-    - If in public domain, level of embarrassment or harm
-    
 ### Video or audio recordings
 
-- "Scrubbing" recordings for episodes of risk (e.g., HomeBank)
-    - Say credit card numbers out loud
+> We will only share {audio recordings, video recordings, photographs} after reviewing them and removing segments or portions that might cause you embarrassment or harm
+
+> However, images and/or voices of people in the {audio recordings, video recordings, photographs} may be seen or heard. First and/or last names of people may be spoken aloud. If the study takes place in your home, aspects of your home may be seen or heard. In addition, other information may have been collected about you, your child, or your family in conjunction with this session. Thus, someone might be able to identify you, your child, or other people. But researchers with access to the shared {audio recordings, video recordings, photographs} have agreed not to reveal the identities of anyone.
 
 ### Brain imaging data
+
+> Before sharing your brain scans, we will remove information that might permit someone to identify you.
+
+#### Discussion
 
 - Defacing
 - Header data "cleaning"\
     - Scrub names
     - Date/time of acquisition (embedded) means must be cautious about exact age or birthdates. May need to redact or change date/time of acquisition to prohibit re-identification.
 
+### Diaries or interviews
+
+> We will only share transcripts from the {diaries, interviews} we collected after reviewing them and removing information that might cause you or someone else harm.
+
 ### Geographic data
+
+> We will not share your home address or any other information about where you live.
+
+OR
+
+> We will share the {Census Block Group, Census Tract, or County} where you live so that researchers can use other public data to understand the characteristics of your community.
+
+OR (if applicable)
+
+> We will share the GPS positions but will add noise to them. This will "blur" the information so that your exact movements cannot be easily determined by others. 
+
+#### Discussion
 
 - Not home address (without permission)
 - Not Census Block, [Census Block Group](https://www.census.gov/geo/reference/gtc/gtc_bg.html) or Census Tract (without permission).
 - HIPAA prohibits sharing ZIP codes if population < 20,000. How does a PI know this?
 
-## Sharing with whom
+### Sensitive data elements
 
-- Public
-    - Scrub PII, other data
-- Restricted
-    - Open/Databrary model, community of researchers without prior restriction
-    - Case-by-case basis, by application, e.g. ICPSR
+> We will NOT share information about {list sensitive data items collected that will not be shared}...
 
-## Sharing where
+OR
 
-### U.S. vs. the World
+> We will share {list sensitive data items collected that will be shared}.... However, the researchers who have access to these data must agree not to contact you, identify you, or otherwise cause you harm in conducting their research.
 
-- [EU Safe Harbour](https://en.wikipedia.org/wiki/International_Safe_Harbor_Privacy_Principles)
-- [EU-US Data Privacy Shield](https://en.wikipedia.org/wiki/EU-US_Privacy_Shield)
+#### Discussion
 
+- Information about potentially stigmatizing characteristics (situation-dependent)
+    - Religious/philosophical convictions
+    - Sexual identity and preferences
+    - Political affiliation, trade union membership
+    - Ethnicity, nationality, citizenship status
+
+<!-- ### Medical/health records -->
+
+<!-- - HIPAA -->
+
+<!-- ### Educational records -->
+
+<!-- - FERPA -->
+
+<!-- ### Criminal records -->
+
+<!-- ### Social media accounts -->
+
+<!-- - Twitter, Facebook, Google+, etc. -->
+<!--     - In public domain or not? -->
+<!--     - If in public domain, level of embarrassment or harm -->
+    
 ## Sharing for how long
 
-## 
+> Your information will be stored for an indefinite period unless you specifically contact {study contact} and revoke permission. However, data and research results already shared with other investigators or the general public cannot be destroyed, withdrawn or recalled.
+
+## Uses of shared data
+
+> The shared data from this study might be used to research any topic and might be unrelated to the goals of this study. 
+
+> Shared data will be used only for research purposes. 
+
+> National or state laws may require us to show information to university or government officials (or sponsors), who are responsible for monitoring the safety of research.
+
+> By agreeing to share data, you are making a free and generous gift that might help others. It is possible that some of the research conducted using your information eventually could lead to the development of new methods for studying {behavior, the brain, ...}, new diagnostic tests, new drugs, or other commercial products. Should this occur, there is no plan to provide you with any part of the profits generated from such products and you will not have any ownership rights in the products.
